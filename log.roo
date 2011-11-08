@@ -1,0 +1,29 @@
+// Spring Roo 1.0.2.RELEASE [rev 638] log opened at 2011-11-07 10:22:08
+project --topLevelPackage com.uploadDownloadFilesExample
+hint
+persistence setup --database MYSQL --provider HIBERNATE --databaseName uploadDownloadFilesExample --userName root
+entity --class ~.domain.Attachement --testAutomatically 
+field string --fieldName fileName
+perform eclipse
+// Spring Roo 1.0.2.RELEASE [rev 638] log opened at 2011-11-07 11:34:31
+controller all --package ~.web
+hint
+perform clean
+perform package
+perform clean
+perform package
+// Spring Roo 1.0.2.RELEASE [rev 638] log opened at 2011-11-07 14:31:55
+perform clean
+perform package
+exit
+// Spring Roo 1.0.2.RELEASE [rev 638] log closed at 2011-11-07 15:32:40
+// Spring Roo 1.0.2.RELEASE [rev 638] log opened at 2011-11-07 15:32:43
+perform clean
+perform package
+perform package
+perform package
+perform clean
+perform package
+exit
+// Spring Roo 1.0.2.RELEASE [rev 638] log closed at 2011-11-08 08:50:34
+// Spring Roo 1.0.2.RELEASE [rev 638] log opened at 2011-11-08 08:50:37
